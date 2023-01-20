@@ -1,27 +1,20 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-...
+There is no absorption process since tefibazumab was administered intravenously.
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-...
-
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `PK-Sim Standard`. 
-
-...
+The standard lymph and fluid recirculation flow rates and the standard vascular properties of the different tissues (hydraulic conductivity, pore radii, fraction of flow via large pores) from PK-Sim were used ([Niederalt 2018](#5-references)).
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
-...
+The FcRn mediated clearance present in the standard PK-Sim model was  used as only clearance process. The standard physiological parameters related to FcRn mediated clearance were used (rate constants for endosomal uptake and recycling, association rate constant for FcRn binding and concentration of FcRn in the endosomal space) ([Niederalt 2018](#5-references)).
 
 ### Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a>
 
-This is the result of the final parameter identification.
+The Kd(FcRn) was fitted to the experimental plasma concentrations.
 
-| Model Parameter      | Optimized Value | Unit |
-| -------------------- | --------------- | ---- |
-| `PK-Sim parameter 1` |                 |      |
-| `PK-Sim parameter 2` |                 |      |
-| `PK-Sim parameter 3` |                 |      |
-| `PK-Sim parameter 4` |                 |      |
+| Model Parameter | Optimized Value | Unit |
+| --------------- | --------------- | ---- |
+| `Kd(FcRn)`      | 0.85            | µM   |
 

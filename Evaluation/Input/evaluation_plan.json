@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "Tefibazumab",
+            "Path": "../../Tefibazumab.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,13 +121,23 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "Tefibazumab",
+                "Simulation": "Tefibazumab_2mgkg_Kd_fit",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "Tefibazumab",
+                "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Tefibazumab",
+                "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Tefibazumab",
+                "Simulation": "Tefibazumab_20mgkg_Kd_fit",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -146,27 +156,53 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "2 mg/kg dose",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "Tefibazumab",
+                                "Simulation": "Tefibazumab_2mgkg_Kd_fit",
+                                "Output": "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose2",
                                 "Color": "#FF0000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "5 mg/kg dose",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "Tefibazumab",
+                                "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+                                "Output": "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose5",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "10 mg/kg dose",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [                            
+                            {
+                                "Project": "Tefibazumab",
+                                "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+                                "Output": "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose10",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "20 mg/kg dose",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Tefibazumab",
+                                "Simulation": "Tefibazumab_20mgkg_Kd_fit",
+                                "Output": "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose20",
                                 "Color": "#FF0000"
                             }
                         ]
@@ -180,15 +216,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "Tefibazumab",
+            "Name": "Tefibazumab",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],

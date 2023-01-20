@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# Tefibazumab-Model
+Whole-body PBPK model of the antibody tefibazumab in healthy adults.
 
 ## Repository files
 **_tbd._**

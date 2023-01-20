@@ -1,11 +1,6 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for tefibazumab was evaluated with clinical PK data.
 
-The model was evaluated covering data from studies including in particular
 
-* ...
-* ...
-
-The model quantifies ...
 
 The next sections show:
 
