@@ -2,5 +2,5 @@ Tefibazumab is a humanized monoclonal antibody (IgG1) against the clumping facto
 
 The herein presented evaluation report evaluates the performance of the physiologically based pharmacokinetic (PBPK) model for tefibazumab in healthy adults. 
 
-The presented Tefibazumab PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
+The presented Tefibazumab PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/Tefibazumab-Model).
 
