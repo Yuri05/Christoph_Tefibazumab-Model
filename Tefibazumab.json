@@ -33,7 +33,7 @@
               "Value": -5.0,
               "Unit": "Log Units",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -49,7 +49,7 @@
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "Assumption"
               }
             }
@@ -65,7 +65,7 @@
               "Value": 9999.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             },
@@ -73,7 +73,7 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -127,7 +127,7 @@
               "Value": -5.0,
               "Unit": "Log Units",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -143,7 +143,7 @@
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "Assumption"
               }
             }
@@ -159,7 +159,7 @@
               "Value": 9999.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             },
@@ -167,7 +167,7 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -442,7 +442,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_Zhou2003\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_Zhou2003\n2023-03-07 10:07"
         }
       ]
     },
@@ -586,7 +586,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_Zhou2003\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_Zhou2003\n2023-03-07 10:07"
         }
       ]
     },
@@ -730,7 +730,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_Zhou2003\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_Zhou2003\n2023-03-07 10:07"
         }
       ]
     },
@@ -874,7 +874,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_Zhou2003\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_Zhou2003\n2023-03-07 10:07"
         }
       ]
     },
@@ -1018,7 +1018,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2022-11-16 14:29"
+          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2023-03-07 10:08"
         },
         {
           "Axes": [
@@ -1085,7 +1085,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2022-11-16 14:29"
+          "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2023-03-07 10:08"
         }
       ]
     },
@@ -1229,7 +1229,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2022-11-16 14:29"
+          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2023-03-07 10:08"
         },
         {
           "Axes": [
@@ -1296,7 +1296,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2022-11-16 14:29"
+          "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2023-03-07 10:08"
         }
       ]
     },
@@ -1440,7 +1440,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2023-03-07 10:08"
         },
         {
           "Axes": [
@@ -1507,7 +1507,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2023-03-07 10:08"
         }
       ]
     },
@@ -1651,7 +1651,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2023-03-07 10:08"
         },
         {
           "Axes": [
@@ -1718,7 +1718,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2022-11-16 14:28"
+          "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2023-03-07 10:08"
         }
       ]
     }
