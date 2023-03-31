@@ -1,0 +1,49 @@
+{
+  "Project": "Tefibazumab",
+  "SnapshotFile": "C:\\SW-Dev\\00\\Christoph_Tefibazumab-Model\\Evaluation\\input\\../../Tefibazumab.json",
+  "OutputFolder": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input",
+  "ObservedDataFolder": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input\\ObservedData",
+  "InputsFolder": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input\\Inputs",
+  "MappingFile": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input\\temp\\Tefibazumab\\mapping.json",
+  "TempFolder": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input\\temp\\Tefibazumab",
+  "ReportConfigurationFile": "C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input\\report-configuration-plan.json",
+  "SimulationPlots": [
+    {
+      "Simulation": "Tefibazumab_2mgkg_Kd_fit",
+      "Project": "Tefibazumab",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+      "Project": "Tefibazumab",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+      "Project": "Tefibazumab",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Tefibazumab_20mgkg_Kd_fit",
+      "Project": "Tefibazumab",
+      "SectionReference": "ct-profiles"
+    }
+  ],
+  "Inputs": [
+    {
+      "Type": "Compound",
+      "Name": "Tefibazumab",
+      "Project": "Tefibazumab",
+      "SectionReference": "final-input-parameters",
+      "SectionLevel": 3
+    }
+  ],
+  "BuildingBlocks": [],
+  "SimulationParameters": [],
+  "Simulations": [
+    "Tefibazumab_2mgkg_Kd_fit",
+    "Tefibazumab_5mgkg_Kd_fit",
+    "Tefibazumab_10mgkg_Kd_fit",
+    "Tefibazumab_20mgkg_Kd_fit"
+  ]
+}

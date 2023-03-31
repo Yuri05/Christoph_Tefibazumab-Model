@@ -1,0 +1,638 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_2mgkg_Kd_fit",
+      "Path": "Tefibazumab/Tefibazumab_2mgkg_Kd_fit/",
+      "SimulationFile": "Tefibazumab_2mgkg_Kd_fit"
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+      "Path": "Tefibazumab/Tefibazumab_5mgkg_Kd_fit/",
+      "SimulationFile": "Tefibazumab_5mgkg_Kd_fit"
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+      "Path": "Tefibazumab/Tefibazumab_10mgkg_Kd_fit/",
+      "SimulationFile": "Tefibazumab_10mgkg_Kd_fit"
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_20mgkg_Kd_fit",
+      "Path": "Tefibazumab/Tefibazumab_20mgkg_Kd_fit/",
+      "SimulationFile": "Tefibazumab_20mgkg_Kd_fit"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "Reilley2005_tefibazumab_PKSimImport.Dose10",
+      "Path": "ObservedData/Reilley2005_tefibazumab_PKSimImport.Dose10.csv"
+    },
+    {
+      "Id": "Reilley2005_tefibazumab_PKSimImport.Dose2",
+      "Path": "ObservedData/Reilley2005_tefibazumab_PKSimImport.Dose2.csv"
+    },
+    {
+      "Id": "Reilley2005_tefibazumab_PKSimImport.Dose20",
+      "Path": "ObservedData/Reilley2005_tefibazumab_PKSimImport.Dose20.csv"
+    },
+    {
+      "Id": "Reilley2005_tefibazumab_PKSimImport.Dose5",
+      "Path": "ObservedData/Reilley2005_tefibazumab_PKSimImport.Dose5.csv"
+    }
+  ],
+  "Plots": [
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_2mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_2mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 2 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 2 mg/kg dose (linear scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_2mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_2mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 2 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 2 mg/kg dose (log scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_2mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_5mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 5 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 5 mg/kg dose (linear scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_5mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_5mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 5 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 5 mg/kg dose (log scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_5mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_10mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 10 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose10|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 10 mg/kg dose (linear scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_10mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_10mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 10 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose10|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 10 mg/kg dose (log scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_10mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_20mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_20mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 20 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 20 mg/kg dose (linear scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    },
+    {
+      "Project": "Tefibazumab",
+      "Simulation": "Tefibazumab_20mgkg_Kd_fit",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "day(s)",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Tefibazumab-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Tefibazumab_20mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "Reilley2005_tefibazumab_Dose 20 mg/kg",
+            "X": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
+            "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Plasma concentration - 20 mg/kg dose (log scale)",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Tefibazumab\nTefibazumab_20mgkg_Kd_fit\n2023-03-07 10:08"
+      }
+    }
+  ],
+  "Inputs": [
+    {
+      "SectionReference": "final-input-parameters",
+      "Path": "Inputs/Tefibazumab/Compound/Tefibazumab.md"
+    }
+  ]
+}

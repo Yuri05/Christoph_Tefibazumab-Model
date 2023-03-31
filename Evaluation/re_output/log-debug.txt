@@ -1,0 +1,131 @@
+31/03/2023 - 19:08:23
+In createQualificationReport:
+Path: 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output' already exists.
+31/03/2023 - 19:08:30
+Simulation file 'Simulation file 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input/Tefibazumab/Tefibazumab_2mgkg_Kd_fit//Tefibazumab_2mgkg_Kd_fit.pkml' successfully loaded' successfully loaded
+31/03/2023 - 19:08:31
+Simulation file 'Simulation file 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input/Tefibazumab/Tefibazumab_5mgkg_Kd_fit//Tefibazumab_5mgkg_Kd_fit.pkml' successfully loaded' successfully loaded
+31/03/2023 - 19:08:31
+Simulation file 'Simulation file 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input/Tefibazumab/Tefibazumab_10mgkg_Kd_fit//Tefibazumab_10mgkg_Kd_fit.pkml' successfully loaded' successfully loaded
+31/03/2023 - 19:08:32
+Simulation file 'Simulation file 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_input/Tefibazumab/Tefibazumab_20mgkg_Kd_fit//Tefibazumab_20mgkg_Kd_fit.pkml' successfully loaded' successfully loaded
+31/03/2023 - 19:08:39
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose2' included 3 columns and 12 rows
+31/03/2023 - 19:08:40
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose5' included 3 columns and 12 rows
+31/03/2023 - 19:08:41
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose10' included 3 columns and 12 rows
+31/03/2023 - 19:08:42
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose20' included 3 columns and 12 rows
+31/03/2023 - 19:08:44
+Table 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+31/03/2023 - 19:08:45
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+31/03/2023 - 19:08:46
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+31/03/2023 - 19:08:47
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose2' included 3 columns and 12 rows
+31/03/2023 - 19:08:49
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose2' included 3 columns and 12 rows
+31/03/2023 - 19:08:52
+Transformation introduced infinite values in continuous y-axis
+Configuration Plan Information:
+Project: Tefibazumab
+Simulation: Tefibazumab_2mgkg_Kd_fit
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+31/03/2023 - 19:08:52
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:08:52
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose5' included 3 columns and 12 rows
+31/03/2023 - 19:08:55
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose5' included 3 columns and 12 rows
+31/03/2023 - 19:08:57
+Transformation introduced infinite values in continuous y-axis
+Configuration Plan Information:
+Project: Tefibazumab
+Simulation: Tefibazumab_5mgkg_Kd_fit
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+31/03/2023 - 19:08:57
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:08:58
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose10' included 3 columns and 12 rows
+31/03/2023 - 19:09:01
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose10' included 3 columns and 12 rows
+31/03/2023 - 19:09:03
+Transformation introduced infinite values in continuous y-axis
+Configuration Plan Information:
+Project: Tefibazumab
+Simulation: Tefibazumab_10mgkg_Kd_fit
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+31/03/2023 - 19:09:03
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:04
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose20' included 3 columns and 12 rows
+31/03/2023 - 19:09:07
+Observed data Id 'Reilley2005_tefibazumab_PKSimImport.Dose20' included 3 columns and 12 rows
+31/03/2023 - 19:09:09
+Transformation introduced infinite values in continuous y-axis
+Configuration Plan Information:
+Project: Tefibazumab
+Simulation: Tefibazumab_20mgkg_Kd_fit
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+31/03/2023 - 19:09:09
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:10
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Tefibazumab_Tefibazumab_2mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:10
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:11
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:11
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Tefibazumab_Tefibazumab_2mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:12
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Tefibazumab_Tefibazumab_5mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:12
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:13
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:13
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Tefibazumab_Tefibazumab_5mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:15
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Tefibazumab_Tefibazumab_10mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:15
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:15
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:16
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/6_time_profile_plot_Tefibazumab_Tefibazumab_10mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:16
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/7_time_profile_plot_Tefibazumab_Tefibazumab_20mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:16
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:17
+Transformation introduced infinite values in continuous y-axis
+31/03/2023 - 19:09:17
+Figure 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/8_time_profile_plot_Tefibazumab_Tefibazumab_20mgkg_Kd_fit.png' was successfully saved.
+31/03/2023 - 19:09:17
+Reports 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/001_Introduction.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/002_Methods.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/004_Data.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/010_Conclusion.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md'
+31/03/2023 - 19:09:17
+In 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md', 1 tables and 10 figures were referenced.
+31/03/2023 - 19:09:27
+Word version of report 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md' created.
+31/03/2023 - 19:09:27
+In 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md', 5 sections were numbered
+31/03/2023 - 19:09:27
+In 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md', table of content of 11 lines was included.
+31/03/2023 - 19:09:27
+'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md'.
+31/03/2023 - 19:09:27
+Reports 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/000_Intro.md', 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/SW-Dev/00/Christoph_Tefibazumab-Model/Evaluation/re_output/report.md'
