@@ -362,6 +362,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_2mgkg_Kd_Zhou2003|Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose2"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -413,9 +420,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose2-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose2-Tefibazumab-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -506,6 +513,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_5mgkg_Kd_Zhou2003|Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose5"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -557,9 +571,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5-Tefibazumab-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -650,6 +664,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_10mgkg_Kd_Zhou2003|Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose10"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -701,9 +722,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose10-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose10-Tefibazumab-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose10|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -794,6 +815,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_20mgkg_Kd_Zhou2003|Organism|PeripheralVenousBlood|Tefibazumab__Kd_Zhou2003|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose20"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -845,9 +873,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20-Tefibazumab-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -938,6 +966,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_10mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose10"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -989,9 +1024,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose10-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 10 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose10|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1056,9 +1091,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose10-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 10 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose10|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1149,6 +1184,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_20mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose20"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -1200,9 +1242,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 20 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1267,9 +1309,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 20 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1360,6 +1402,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_2mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose2"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -1411,9 +1460,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose2-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 2 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1478,9 +1527,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose2-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 2 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1571,6 +1620,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Tefibazumab_5mgkg_Kd_fit|Organism|PeripheralVenousBlood|Tefibazumab|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Reilley2005_tefibazumab_PKSimImport.Dose5"
+        }
+      ],
       "Individual": "human",
       "Compounds": [
         {
@@ -1622,9 +1678,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 5 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1689,9 +1745,9 @@
               }
             },
             {
-              "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5-Tefibazumab-Measurement",
+              "Name": "Reilley2005_tefibazumab_Dose 5 mg/kg",
               "X": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
-              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|||Tefibazumab|Measurement",
+              "Y": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -1725,108 +1781,6 @@
   ],
   "ObservedData": [
     {
-      "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "PKSimImport"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Tefibazumab"
-        },
-        {
-          "Name": "Dose [mg/kg]",
-          "Value": "20"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|||Tefibazumab|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 150000.0
-              },
-              "Values": [
-                72.59933,
-                0.0,
-                43.29471,
-                53.46899,
-                29.6064816,
-                29.53885,
-                0.0,
-                10.5779295,
-                0.0,
-                7.90149736,
-                12.16108,
-                7.60672
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|||Tefibazumab|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 150000.0
-          },
-          "Values": [
-            489.2018,
-            451.2802,
-            397.5311,
-            384.057281,
-            271.8462,
-            247.939285,
-            196.9903,
-            136.3971,
-            92.28877,
-            72.54391,
-            50.30176,
-            30.37143
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0520833321,
-          0.25,
-          0.5,
-          1.0,
-          3.0,
-          4.0,
-          7.0,
-          14.0,
-          21.0,
-          28.0,
-          42.0,
-          56.0
-        ],
-        "Dimension": "Time",
-        "Unit": "day(s)"
-      }
-    },
-    {
       "Name": "Reilley2005_tefibazumab_PKSimImport.Dose10",
       "ExtendedProperties": [
         {
@@ -1836,6 +1790,18 @@
         {
           "Name": "Molecule",
           "Value": "Tefibazumab"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
         },
         {
           "Name": "Dose [mg/kg]",
@@ -1849,7 +1815,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|||Tefibazumab|Error"
+                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -1875,7 +1841,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|||Tefibazumab|Measurement"
+            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose10|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1929,108 +1895,6 @@
       }
     },
     {
-      "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "PKSimImport"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Tefibazumab"
-        },
-        {
-          "Name": "Dose [mg/kg]",
-          "Value": "5"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|||Tefibazumab|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 150000.0
-              },
-              "Values": [
-                5.593964,
-                8.782104,
-                14.43988,
-                11.9027195,
-                4.487007,
-                4.771439,
-                3.44371,
-                2.497547,
-                3.112619,
-                2.264486,
-                1.913603,
-                1.47936392
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|||Tefibazumab|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 150000.0
-          },
-          "Values": [
-            124.019295,
-            122.605095,
-            106.7641,
-            97.36496,
-            75.57823,
-            66.5876541,
-            58.01839,
-            42.06819,
-            28.4641,
-            23.43058,
-            14.14702,
-            9.92328548
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0520833321,
-          0.25,
-          0.5,
-          1.0,
-          3.0,
-          4.0,
-          7.0,
-          14.0,
-          21.0,
-          28.0,
-          42.0,
-          56.0
-        ],
-        "Dimension": "Time",
-        "Unit": "day(s)"
-      }
-    },
-    {
       "Name": "Reilley2005_tefibazumab_PKSimImport.Dose2",
       "ExtendedProperties": [
         {
@@ -2040,6 +1904,18 @@
         {
           "Name": "Molecule",
           "Value": "Tefibazumab"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
         },
         {
           "Name": "Dose [mg/kg]",
@@ -2053,7 +1929,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|||Tefibazumab|Error"
+                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -2079,7 +1955,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|||Tefibazumab|Measurement"
+            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose2|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -2108,6 +1984,234 @@
         "Name": "Time",
         "QuantityInfo": {
           "Path": "Reilley2005_tefibazumab_PKSimImport.Dose2|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0520833321,
+          0.25,
+          0.5,
+          1.0,
+          3.0,
+          4.0,
+          7.0,
+          14.0,
+          21.0,
+          28.0,
+          42.0,
+          56.0
+        ],
+        "Dimension": "Time",
+        "Unit": "day(s)"
+      }
+    },
+    {
+      "Name": "Reilley2005_tefibazumab_PKSimImport.Dose20",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "PKSimImport"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tefibazumab"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Dose [mg/kg]",
+          "Value": "20"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 150000.0
+              },
+              "Values": [
+                72.59933,
+                0.0,
+                43.29471,
+                53.46899,
+                29.6064816,
+                29.53885,
+                0.0,
+                10.5779295,
+                0.0,
+                7.90149736,
+                12.16108,
+                7.60672
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 150000.0
+          },
+          "Values": [
+            489.2018,
+            451.2802,
+            397.5311,
+            384.057281,
+            271.8462,
+            247.939285,
+            196.9903,
+            136.3971,
+            92.28877,
+            72.54391,
+            50.30176,
+            30.37143
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Reilley2005_tefibazumab_PKSimImport.Dose20|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0520833321,
+          0.25,
+          0.5,
+          1.0,
+          3.0,
+          4.0,
+          7.0,
+          14.0,
+          21.0,
+          28.0,
+          42.0,
+          56.0
+        ],
+        "Dimension": "Time",
+        "Unit": "day(s)"
+      }
+    },
+    {
+      "Name": "Reilley2005_tefibazumab_PKSimImport.Dose5",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "PKSimImport"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tefibazumab"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Dose [mg/kg]",
+          "Value": "5"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 150000.0
+              },
+              "Values": [
+                5.593964,
+                8.782104,
+                14.43988,
+                11.9027195,
+                4.487007,
+                4.771439,
+                3.44371,
+                2.497547,
+                3.112619,
+                2.264486,
+                1.913603,
+                1.47936392
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|ObservedData|Peripheral Venous Blood|Plasma|Tefibazumab|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 150000.0
+          },
+          "Values": [
+            124.019295,
+            122.605095,
+            106.7641,
+            97.36496,
+            75.57823,
+            66.5876541,
+            58.01839,
+            42.06819,
+            28.4641,
+            23.43058,
+            14.14702,
+            9.92328548
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Reilley2005_tefibazumab_PKSimImport.Dose5|Time",
           "Type": "Time"
         },
         "DataInfo": {
